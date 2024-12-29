@@ -27,7 +27,7 @@ body {
 }
 .container {
     background-color: var(--white);
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 0.625rem;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0 0.05);
     margin-bottom: 1rem;
@@ -40,10 +40,13 @@ body {
     color: var(--dark-blue);
     text-align: center;
     margin-bottom: 1rem;
+    font-size: 22px;
 }
 .container p {
     color: var(--grayish-blue);
     text-align: center;
+    font-size: 16px;
+    margin-bottom: 1rem;
 }
 .attribution {
     font-size: 14px;
@@ -54,6 +57,6 @@ body {
 }
 @media (min-width: 500px) {
     .container {
-        width: 400px;
+        width: 315px;
     }
 }
